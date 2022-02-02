@@ -1,0 +1,28 @@
+﻿<Window x:Class="_Capitulo4Ejercicio1.MainWindow" ResizeMode="NoResize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_Capitulo4Ejercicio1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="550">
+    <Grid>
+        <!-- <StackPanel Orientation="Horizontal" Margin="1,5,0,0"> -->
+
+        <Label Content="Digite el numero que desea saber su tabla:" HorizontalAlignment="Center" Margin="15,50,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="NumeroTextBox" Margin="50,90" Width="250" Height="20" VerticalAlignment="Top" />
+
+        <StackPanel Orientation= "Vertical" Margin="75,15" >
+
+            <Button x:Name="CalcularButton" Margin="150,125"  Click="CalcularButton_Click" >
+             <Button Content="🔎Calcular" />
+            </Button>
+
+        </StackPanel>
+
+
+
+        
+    
+    </Grid>
+</Window>
