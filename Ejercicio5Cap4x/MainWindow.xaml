@@ -1,0 +1,45 @@
+﻿<Window x:Class="Ejercio5Cap4.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Ejercio5Cap4" mc:Ignorable="d" Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <StackPanel Orientation="Vertical" Margin="10,0,10,0">
+
+
+            <StackPanel x:Name="NumerosTextBox" Orientation="Vertical" >
+
+                <Label Content="Numero 1:" HorizontalAlignment="Center" />
+                <TextBox x:Name="Numero1" Height="20" />
+
+                <Label Content="Numero 2 :" HorizontalAlignment="Center" />
+                <TextBox x:Name="Numero2" Height="20" />
+
+                <Label Content="Numero 3:" HorizontalAlignment="Center" />
+                <TextBox x:Name="Numero3" Height="20" />
+
+                <Label Content="Numero 4:" HorizontalAlignment="Center"  />
+                <TextBox x:Name="Numero4" Height="20" />
+
+                <Label Content="Numero 5:" HorizontalAlignment="Center" />
+                <TextBox x:Name="Numero5" Height="20" />
+
+                <Label Content="Numero 6:" HorizontalAlignment="Center" />
+                <TextBox x:Name="Numero6" Height="20" />
+
+                <Label Content="Numero 7:" HorizontalAlignment="Center" />
+                <TextBox x:Name="Numero7" Height="20" />
+
+             
+
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="0,15" Width="75">
+
+                <Button x:Name="EjecutarButton" Margin="5,0"  >
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Ejecutar" HorizontalAlignment="Center" Click="EjecutarButton_Click"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
